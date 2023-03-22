@@ -24,6 +24,10 @@ body {
 }
 
 #display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
   background-color: #565656;
   height: 25%;
   width: 90%;
@@ -32,6 +36,13 @@ body {
   border-radius: 1em;
 }
 
+#text-display {
+  width: 90%;
+  max-height: 8rem;
+  text-align: end;
+  word-wrap: break-word;
+  overflow: scroll;
+}
 #row {
   width: 90%;
   display: flex;
@@ -69,8 +80,20 @@ button {
     font-size: 1.7rem;
     border-radius: 1em;
   }
+}
 
-  #row > * {
-    flex: 1;
-  }
+#first-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.7em;
+}
+
+#clear {
+  width: 62%;
+}
+
+#zero {
+  width: 62%;
 }

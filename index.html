@@ -8,32 +8,38 @@
   </head>
   <body>
     <div id="container">
-      <div id="display"></div>
-      <div id="row">
-        <button id="number">7</button>
-        <button id="number">8</button>
-        <button id="number">9</button>
-        <button id="multiply">*</button>
+      <div id="display">
+        <div id="text-display"></div>
+      </div>
+      <div id="first-row">
+        <button id="clear" value="clear">Clear</button>
+        <button id="" class="operator" value="%">%</button>
+        <button id="divide" class="operator" value="/">/</button>
       </div>
       <div id="row">
-        <button id="number">4</button>
-        <button id="number">5</button>
-        <button id="number">6</button>
-        <button id="subtract">-</button>
+        <button id="number" class="number" value="7">7</button>
+        <button id="number" class="number" value="8">8</button>
+        <button id="number" class="number" value="9">9</button>
+        <button id="multiply" class="operator" value="x">x</button>
       </div>
       <div id="row">
-        <button id="number">1</button>
-        <button id="number">2</button>
-        <button id="number">3</button>
-        <button id="add">+</button>
+        <button id="number" class="number" value="4">4</button>
+        <button id="number" class="number" value="5">5</button>
+        <button id="number" class="number" value="6">6</button>
+        <button id="subtract" class="operator" value="-">-</button>
       </div>
       <div id="row">
-        <button id="clear">Clear</button>
-        <button id="number">0</button>
-        <button id="dot">.</button>
-        <button id="equal">=</button>
+        <button id="number" class="number" value="1">1</button>
+        <button id="number" class="number" value="2">2</button>
+        <button id="number" class="number" value="3">3</button>
+        <button id="add" class="operator" value="+">+</button>
+      </div>
+      <div id="row">
+        <button id="zero" class="number" value="0">0</button>
+        <button id="dot" class="number" value=".">.</button>
+        <button id="equal" value="=">=</button>
       </div>
     </div>
-    <style src="./app.js"></style>
+    <script src="./app.js"></script>
   </body>
 </html>
